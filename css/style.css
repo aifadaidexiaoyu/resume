@@ -1,0 +1,137 @@
+﻿@charset "utf-8";
+body {margin:0;font-family: 'Roboto','宋体' sans-serif;}
+a{text-decoration:none;}
+a:hover {text-decoration:none;}
+h1,h2,h3,h4,h5,h6 {margin:0;	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;}
+p {margin:0;font-size:20px;}
+ul,label {margin:0;padding:0;}
+
+/*--header--*/
+.header {background: none;position: relative;padding: 4em 0;}
+.logo {position: absolute;top: 10%;z-index: 999;left: 38.5%;}
+.logo h1 a {display: block;font-size: 1.5em;color: #d9d919;text-decoration: none;letter-spacing: 2px;}
+.logo h1 a:hover {color: #7f00ff}
+.top-nav {text-align: center;width: 100%;margin: 0 auto;}
+.top-nav ul {margin: 0;}
+.top-nav ul li {list-style-type:none;display: inline-block;margin: 0 2em;}	
+.top-nav ul li:nth-child(3) { margin-right: 38em;}
+.top-nav li a {color: #fff;font-size: 2em;padding: 0;}
+.top-nav li a:hover ,.top-nav li a.active{color: #E88010;}
+/*--//header--*/
+/*--banner--*/ 
+.banner {background: url(../images/banner.jpg) no-repeat ;background-size: cover;min-height: 683px;	}
+.bnr-text {text-align: center;color: #fff;margin-top: 8em;overflow:hidden;}
+.bnr-text .bnr-title {font-size: 3.5em;color: #E88010;font-weight: 300;}
+.bnr-text p {font-size: 1.5em;line-height: 1.8em;width: 50%;margin: 1.2em auto 2em;
+             color: rgba(255, 255, 255, 0.7);}
+.bnr-text a.more {font-size: 1.6em;color: #fff;border: 3px solid #fff;padding: 0.5em 2em;display: inline-block;}
+.bnr-text a.more-left {margin-left: 0;margin-right: 2em;color: #E88010;}
+.bnr-text a.more-right {border-color: #E88010;background-color: #E88010;margin-right: 0;}
+.bnr-text a.more-left:hover {background-color: #E88010;border-color: #E88010;color: #fff;}
+.bnr-text a.more-right:hover {background: none;color: #E88010;border-color: #fff;}
+/*--//banner--*/
+/*--me--*/
+.me{padding:7em 0;min-height: 683px;}
+.me h1.title {font-size: 4em;text-align: center;color: #00F;margin-bottom: 1.2em;}
+.me p {font-size: 1.2em;color: #999;line-height: 1.8em;margin-top: 0.5em;white-space:pre;font-family: "宋体" }
+.me h4 {font-size: 1.8em;color: #000;letter-spacing: 1px;text-transform: uppercase;font-family: "宋体"}
+.me span.glyphicon {font-size: 2em;color: #FF7F50;}
+.me span.glyphicon.glyphicon-map-marker {color: #CF9EA0;}
+.me span.glyphicon.glyphicon-calendar { color: #A300DB;}
+.wtext-left {text-align: center;padding-top: 0.5em;}
+.me-left {background: url(../images/fighting.png) no-repeat 0px 0px;
+          min-height: 414px;background-size: cover;padding: 0;}
+/*--progress-bars--*/
+.me-bars {margin: 1em 4em;position: relative;padding-top: 1.5em;}
+.me .progress {height: 3px;background: #E6E6E6;}
+.me .progress-bar {background-color: #FF7F50;line-height: 15px;}
+.me .progress-bar1 {width: 60%;}
+.me .progress-bar2 {width: 80%;}
+.me .progress-bar3 {width: 45%;}
+.me-bars label {left: 56%;position: absolute;top: -18px;background: #FF7F50;
+    padding: 5px 10px; color: #fff;font-size: 1em;font-weight: 400;} 
+.me-bars label:before {width: 0;height: 0;position: absolute;content: '';
+                      bottom: -5px;left: 0;right: 0;margin: auto;display: block;border-style: solid;
+                      border-width: 5px 5px 0 5px;border-color: #FF7F50;}
+.me-bars label.bar2 {left: 76%;}
+.me-bars label.bar3 {left: 41%;}
+/*--//me--*/
+/*--skill--*/
+.skill {background: url(../images/bg1.jpg) no-repeat 0px 0px fixed;background-size: cover;min-height: 683px;}
+.skill-info {background: rgba(0, 0, 0, 0.72);width: 50%;min-height: 683px;padding: 7em 0;text-align: right;} 
+.skill .title {color: #A703D2;margin-right: -1em;font-size: 3em;margin-bottom: 15px;}
+.scrollbar {height: 395px;overflow-y: scroll;margin-right: -3em;}
+ /*左边滚动条定位，!important使之靠左边*/
+#ascrail2001 {left: 20px !important;border-radius: 5px;}
+.skill-grids {margin: 4em 0;}
+.skill h2 {font-size: 2.5em;color: #E88010;}
+.skill p {color: #0000ff;width: 53%;margin: 0.5em 0 0 auto;}
+.skill .percent {font-size: 1.5em;color: #333;background: #fff;padding: 1em;
+                 font-weight: 700;letter-spacing: 2px;width: 85px;height: 65px;
+                 border-radius: 50%;
+                 -moz-border-radius: 50%;  
+	               -webkit-border-radius: 50%;	             
+}
+.skill-grids:hover .percent {color: #E88010;
+                             transform: rotateY(360deg);
+                             -o-transform: rotateY(360deg);
+                             -ms-transform: rotateY(360deg);
+                             -moz-transform: rotateY(360deg);
+                             -webkit-transform: rotateY(360deg);
+                         
+                             transition: 0.5s all;
+                             -moz-transition: 0.5s all;
+                             -webkit-transition: 0.5s all; 
+}  
+.introduce {float:left; position: absolute;top:1635px;left:780px;font-size:16px;margin-right: 50px;}
+.introduce p{ margin-bottom: 40px;}                                                                                                                                                                                                                                                                                                                                
+/*--skill--*/
+/*--works--*/
+.works {background: url(../images/bg2.jpg) no-repeat fixed;background-size: cover;padding:6em 0;min-height: 683px;}
+.works .title{text-align: center;font-size: 3em;margin-bottom: 25px;}
+.works-grids{margin-bottom: 15px;}
+.works-grids img {width: 100%;}
+.works-thmnl {overflow: hidden;padding: 0;border: 10px solid #fff;margin: 0;position:relative;}
+.works-thmnl:hover {border-color: #E88010;}
+.public-icons.works-icons {position: absolute;bottom:-100px;margin: 0;left: 0;background: #fff;padding: 1em 0 .7em;
+                          -webkit-transition:.5s all;
+                          transition:.5s all;
+                          -moz-transition:.5s all;
+                          width: 100%;text-align: center;}
+.public-icons.works-icons ul li a:hover{background-color: #E88010;}
+.works-thmnl:hover  .public-icons.works-icons{bottom:0px;}
+/*--works--*/
+/*--footer--*/
+.footer{background: url(../images/footer.jpg) no-repeat;background-size:cover;min-height: 683px;}
+.footer-grids{margin-top: 9em;}
+.footer-grids h3 {font-size: 3em;color: #E88010;margin-bottom: 0.8em;}
+.footer-grids1 ul li {display: block;margin-bottom: 1.5em;color: #fff;font-size: 1.1em;}
+.footer-grids1 ul li:nth-child(2) {border-top: 1px dashed #5D5D5D;border-bottom: 1px dashed #5D5D5D;padding: 1.5em 0;}
+.footer-grids1 ul li i.glyphicon {font-size: 1.1em;color: #fff;margin-right: 0.8em;vertical-align: middle;}
+.footer-grids1 ul li span {display: block;margin-left: 2.5em;padding-top: 0.5em;}
+.footer-grids1 ul li a{color: #fff}
+.footer-grids1 ul li a:hover{color: #E88010;}
+.footer-grids2 p{font-size: 1.2em;color: #EEE;}
+.public-icons {margin-top: 2em;}
+.public-icons ul li{display: inline-block;text-align: left;margin: 0 1em 0 0;}
+.public-icons ul li a {background: url(../images/social-icons.png) #E88010 no-repeat 0px 0px;
+                      display: block;height: 41px;width: 41px;border: 1px solid #E88010;
+                      -webkit-transition: .5s all;
+                      transition: .5s all;
+                      -moz-transition: .5s all;
+}
+.public-icons ul li a:hover {background-color: transparent;border-radius: 50%;}
+.public-icons ul li a.fb {background-position:0px -48px;}
+.public-icons ul li a.in {background-position: 1px -96px;}
+.public-icons ul li a.dott {background-position: 0px -145px;}
+.footer .pull-right img{width: 22px;height: 30px;margin-right: 7px;}
+.footer-dashed p {color: #fff;text-align: center;font-size: 1.2em;}
+/*--分割线--*/
+.footer-dashed {margin-top: 3em;padding-top: 2em;border-top: 2px dashed #5D5D5D;}
+/*--//footer--*/
+#toTop {text-decoration: none;position: fixed;
+        bottom: 3%;right: 3%;width: 40px;height: 40px;display: block;
+        background: url(../images/move-up.png) #f0f0f0 no-repeat center;
+}
+#toTop:hover {background-color: #E55010;}
+
